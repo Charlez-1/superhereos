@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request
 from flask_migrate import Migrate
 from flask_jwt_extended import JWTManager
 from datetime import timedelta
-from backend.views.models import db, Heroes, Powers, Hero_powers
+from models import db, Heroes, Powers, Hero_powers
 
 app = Flask(__name__)
 
